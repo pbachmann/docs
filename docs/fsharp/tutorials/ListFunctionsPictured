@@ -1,0 +1,27 @@
+---
+title: List Functions pictured
+description: A simplified overview of list functions.
+ms.date: 05/09/2022
+---
+# List functions pictured
+
+## Introduction
+Much of F# code will deal with lists (and arrays and seqs). These are done through standard functions provided with F#.
+
+It is extremely important to understand what the list functions do and how they operate differently from one another. This sounds simple enough until you realize there are about a hundred of them.
+
+This page offers a simple, broad overview of the functions and how they differ.
+
+## The situation
+Imagine your job is to work with plastic balls. These balls are different sizes and different colours. You start off no balls and usually someone throws the balls at you. F# list functions prescribe what you should do with these balls as they arrive. Sometimes rather than being thrown a ball, you get thrown a grenade (an exception).
+
+You also have a magic wand with which you can produce your own balls.
+
+Your job, at the end of the day, is to produce a result. The result will be one of the incoming balls, or some of them, or a new ball you have created based
+
+## The functions
+### Reduce
+Someone with a collection of balls throws you the first two. You look at them and throw one away or throw both away and use the magic wand to produce a new one. You repeat the process with the next ball until there are no more balls.
+The result is the last ball you have in your hand.
+If there are no balls to begin with, you get thrown a grenade.
+If there was only one ball to begin with, that is your result and you have no say over the matter.
